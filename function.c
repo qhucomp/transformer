@@ -244,8 +244,8 @@ int naive_multihead_attention(Args_t arg)
 }
 int run_multihead_attention(Args_t arg)
 {
-    //multihead_attention(arg);
-	naive_multihead_attention(arg);
+    multihead_attention(arg);
+	// naive_multihead_attention(arg);
     return 0;
 }
 
